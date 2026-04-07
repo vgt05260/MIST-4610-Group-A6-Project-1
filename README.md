@@ -11,6 +11,7 @@ Group A6
 
 # Case Description
 Case#3 – The Peach State Film Festival
+
 Peach State Film Festival (PSFF) is a week-long festival hosted across multiple theaters in Atlanta, Georgia. PSFF
 wants to develop a database to manage film submissions, screenings, and volunteer staffi
 
