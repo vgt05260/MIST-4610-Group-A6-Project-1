@@ -21,4 +21,4 @@ wants to develop a database to manage film submissions, screenings, and voluntee
 
 # Ten Queries
 
-# Databse Information
+# Database Information
