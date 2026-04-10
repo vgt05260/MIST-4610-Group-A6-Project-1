@@ -16,8 +16,10 @@ Peach State Film Festival (PSFF) is a week-long festival hosted across multiple 
 wants to develop a database to manage film submissions, screenings, and volunteer staffi
 
 # Data Model
+The data model png is in the Project Diagram.png in this repository.
 
 # Data Dictionary
+The data dictionary pdf if in the Data Dictionary.pdf in this repository.
 
 # Ten Queries
 
