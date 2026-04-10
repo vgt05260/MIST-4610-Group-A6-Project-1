@@ -5,7 +5,7 @@ UGA MIST 4610 Group Project for Professor Marie-Claude Boudreau
 Group A6
 - Group Leader: Victoria Taylor
 - Conceptual Modeler:
-- Database Designer:
+- Database Designer: Rishi Patel
 - Data Wrangler:
 - SQL Writer:
 
