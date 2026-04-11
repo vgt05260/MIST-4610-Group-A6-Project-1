@@ -71,8 +71,20 @@ This query is useful for analyzing the geographic distribution of films in the f
 This query demonstrates aggregation using COUNT(), DISTINCT, and GROUP BY. It also combines aggregation with a join between film and screening, reinforcing how to summarize data across related tables and sort aggregated results.
 
 ## Query 7
+Query 7 lists each film’s title, rating, runtime, the submitter’s first and last name, and the category name and submission fee it belongs to, ordered by category and film title.
+<img width="2048" height="575" alt="image" src="https://github.com/user-attachments/assets/0efebb82-1090-47a7-bbb1-0969157c1097" />
+### Managerial Justification
+This query is useful for understanding how films are distributed across categories and who submitted them, while also providing insight into the financial and structural aspects of each category. Festival organizers can use this information to track submissions, evaluate participation by category, and ensure proper organization of films within the program. Additionally, linking films to submitters and submission fees helps support administrative tasks such as billing, reporting, and assessing which categories attract the most entries.
+### Technical Justification
+This query demonstrates a three-table join across film, submitter, and category, reinforcing understanding of multiple foreign key relationships. It also shows selecting attributes from different entities and organizing results with ORDER BY on multiple fields.
 
 ## Query 8
+Query 8 lists paired films by showing the title of each film in the pair, along with the pairing type and the date the pairing was established, ordered by pairing date.
+<img width="2048" height="652" alt="image" src="https://github.com/user-attachments/assets/b3559c60-ac1e-49e1-bc9f-b64112971548" />
+### Managerial Justification
+This query is useful for understanding how films are intentionally grouped within the festival program, such as double features or thematic pairings. Festival organizers can use this information to coordinate scheduling, marketing, and audience experience by highlighting curated film combinations. Additionally, tracking pairing types and dates helps ensure proper documentation of programming decisions and allows for analysis of how different pairing strategies are used throughout the festival.
+### Technical Justification
+This query demonstrates a self-join pattern by referencing the film table twice (aliased as f1 and f2) through the pairing table. It reinforces the concept of recursive/relational relationships within the same entity, along with aliasing and joining multiple instances of a table.
 
 ## Query 9
 Query 9 lists each film along with its shooting location (location name, city, and country), and classifies the film’s origin as “Local - Georgia,” “Domestic - Other State,” or “International” based on the location’s state/province and country. Results are ordered first by the derived origin category and then alphabetically by film title.
@@ -82,4 +94,14 @@ This query provides management with a clear breakdown of where films in the fest
 ### Technical Justification
 This query demonstrates the use of a CASE statement to create a derived attribute (film_origin) based on multiple conditions, as well as a three-table join (film, shoot_details, and location) to combine related data. It also shows handling of non-standard column names using backticks and reinforces sorting by both a computed field and a base column. This reflects practical SQL use for categorization and reporting.
 
+## Query 10
+Query 10 lists each venue along with the number of employee shifts, total labor cost (rounded to two decimal places), and number of volunteer shifts associated with that venue. Results are grouped by venue and ordered by total labor cost in descending order.
+<img width="2048" height="741" alt="image" src="https://github.com/user-attachments/assets/2a0f8d55-f709-4ee9-806a-da13f52c65de" />
+### Managerial Justification
+This query provides festival management with a clear comparison of staffing levels and labor costs across venues. By analyzing both paid employee shifts and volunteer contributions, decision-makers can assess operational efficiency, identify high-cost venues, and determine whether staffing resources are being allocated effectively. This insight supports budgeting decisions, workforce planning, and optimization of volunteer versus paid labor distribution.
+### Technical Justification
+This query demonstrates aggregation functions including COUNT(DISTINCT) and SUM, as well as ROUND for formatting numeric output. It uses a three-table join (venue, employee_shift, volunteer_shift) to combine related operational data, and applies GROUP BY to aggregate results at the venue level. It also reinforces sorting by a computed column (total_labor_cost) and handling multiple aggregates within a single query.
+
 # Database Information
+Name of the database: mb_A6
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL GP_Q1();
