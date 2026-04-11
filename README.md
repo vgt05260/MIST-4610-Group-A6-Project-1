@@ -12,8 +12,11 @@ Group A6
 # Case Description
 Case#3 – The Peach State Film Festival
 
-Peach State Film Festival (PSFF) is a week-long festival hosted across multiple theaters in Atlanta, Georgia. PSFF
-wants to develop a database to manage film submissions, screenings, and volunteer staffi
+Peach State Film Festival (PSFF) is a week-long festival hosted across multiple theaters in Atlanta, Georgia. The task at hand is to model and build a relational database for the operations of the Peach State Film Festival. The central entity in the model is the Film, representing each submission selected for the festival. Films are associated with submitters, categories, directors, and may optionally be paired with another film as part of festival programming. These films are scheduled for screenings, which take place in specific screening rooms within venues across various locations.
+
+The festival operates through the coordination of customers (attendees making reservations), employees (paid staff), and volunteers, all of whom contribute to the execution of screenings and events. Employees and volunteers are assigned to shifts at venues, and customers reserve seats for specific screenings. Additional operational details, such as filming locations and venue logistics, are also captured to provide a comprehensive view of festival activities.
+
+We are interested in accurately modeling these relationships, generating sample data, and populating the entities and their attributes with this data. Furthermore, we aim to perform functional SQL queries on this database to extract meaningful insights regarding festival programming, staffing, attendance, and operational efficiency.
 
 # Data Model
 The data model png is in the Project Diagram.png in this repository.
