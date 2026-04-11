@@ -107,4 +107,5 @@ This query demonstrates aggregation functions including COUNT(DISTINCT) and SUM,
 
 # Database Information
 Name of the database: mb_A6
+
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL GP_Q1();
