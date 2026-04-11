@@ -26,6 +26,10 @@ The data dictionary pdf if in the Data Dictionary.pdf in this repository.
 
 # Ten Queries
 ## Query 1
+<img width="1278" height="750" alt="image" src="https://github.com/user-attachments/assets/f744325b-3ca6-43d9-92bf-126f3ec77145" />
+
+
+
 Query 1 lists the titles, runtimes, languages, countries, and ratings of films that are rated PG or PG-13, ordered from longest to shortest runtime.
 <img width="2048" height="574" alt="image" src="https://github.com/user-attachments/assets/895fc352-56ac-48c1-bee1-a757064c8c96" />
 ### Managerial Justification
