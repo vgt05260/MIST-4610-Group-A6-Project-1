@@ -4,10 +4,10 @@ UGA MIST 4610 Group Project for Professor Marie-Claude Boudreau
 # Group Information
 Group A6
 - Group Leader: Victoria Taylor
-- Conceptual Modeler:
+- Conceptual Modeler: Yahia Abdelkarim
 - Database Designer: Rishi Patel
-- Data Wrangler:
-- SQL Writer:
+- Data Wrangler: Enaz Tewfik
+- SQL Writer: Kevin Serna
 
 # Case Description
 Case#3 – The Peach State Film Festival
