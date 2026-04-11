@@ -19,7 +19,8 @@ The festival operates through the coordination of customers (attendees making re
 We are interested in accurately modeling these relationships, generating sample data, and populating the entities and their attributes with this data. Furthermore, we aim to perform functional SQL queries on this database to extract meaningful insights regarding festival programming, staffing, attendance, and operational efficiency.
 
 # Data Model
-The data model png is in the Project Diagram.png in this repository.
+<img width="965" height="1294" alt="image" src="https://github.com/user-attachments/assets/e6248dd6-b6dc-4b10-814a-c62cd7fdf6d9" />
+
 
 # Data Dictionary
 The data dictionary pdf if in the Data Dictionary.pdf in this repository.
